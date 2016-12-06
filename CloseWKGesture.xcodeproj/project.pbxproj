@@ -15,6 +15,7 @@
 		FCB796461DF6CD9D00CB4C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB796441DF6CD9D00CB4C8F /* LaunchScreen.storyboard */; };
 		FCB796511DF6CD9D00CB4C8F /* CloseWKGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB796501DF6CD9D00CB4C8F /* CloseWKGestureTests.m */; };
 		FCB7965C1DF6CD9D00CB4C8F /* CloseWKGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB7965B1DF6CD9D00CB4C8F /* CloseWKGestureUITests.m */; };
+		FCB7966B1DF6CE6600CB4C8F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB7966A1DF6CE6600CB4C8F /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FCB796571DF6CD9D00CB4C8F /* CloseWKGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloseWKGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB7965B1DF6CD9D00CB4C8F /* CloseWKGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloseWKGestureUITests.m; sourceTree = "<group>"; };
 		FCB7965D1DF6CD9D00CB4C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB7966A1DF6CE6600CB4C8F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB7966B1DF6CE6600CB4C8F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				FCB7964F1DF6CD9D00CB4C8F /* CloseWKGestureTests */,
 				FCB7965A1DF6CD9D00CB4C8F /* CloseWKGestureUITests */,
 				FCB796341DF6CD9D00CB4C8F /* Products */,
+				FCB796691DF6CE6600CB4C8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +142,14 @@
 				FCB7965D1DF6CD9D00CB4C8F /* Info.plist */,
 			);
 			path = CloseWKGestureUITests;
+			sourceTree = "<group>";
+		};
+		FCB796691DF6CE6600CB4C8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCB7966A1DF6CE6600CB4C8F /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -415,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
