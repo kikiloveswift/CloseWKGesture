@@ -28,6 +28,7 @@
     [self initUI];
 }
 
+
 - (void)initUI
 {
     _webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
@@ -61,7 +62,6 @@
     {
         decisionHandler(WKNavigationActionPolicyCancel);
     }
-
 }
 
 
